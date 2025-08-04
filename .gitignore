@@ -1,0 +1,15 @@
+# Ignore datasets
+dataset/
+# Ignore environment folders
+miniforge3/
+# Ignore MMDetection repo
+mmdetection/
+# Ignore all model weights/checkpoints
+*.pth
+*.pt
+# Optional: ignore training logs and temp files
+# *.log
+# *.log.json
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
